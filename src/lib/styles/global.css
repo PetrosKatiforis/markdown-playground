@@ -1,0 +1,46 @@
+@import "preview.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Open Sans", sans-serif;
+  word-break: break-word;
+}
+
+:root {
+  --bg-body: #111;
+  --bg-lighter: #0f0e0e;
+  --bg-gray: #222;
+
+  --border-code: #202020;
+  --border-gray: #aaa;
+  --border-light: #393939;
+}
+
+body {
+  background: var(--bg-body);
+  color: white;
+}
+
+button, textarea {
+  color: white;
+}
+
+.btn, button {
+  background: var(--bg-lighter);
+  padding: 0.2em 0.4em;
+
+  color: white;
+  text-decoration: none;
+  font-size: 0.8rem;
+
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid var(--border-gray);
+}
+
+a {
+  color: #248eb0;
+}

@@ -1,0 +1,89 @@
+.markdown__preview p {
+  margin-bottom: 0.8em;
+  font-size: 0.9rem;
+}
+
+.markdown__preview blockquote {
+  padding-left: 0.5em;
+  margin: 1.5em 0 1.5em 2em;
+
+  border-left: 4px solid var(--border-light);
+  border-radius: 5px;
+}
+
+.markdown__preview blockquote p {
+  opacity: 80%;
+}
+
+.markdown__preview hr {
+  border: 2px solid var(--bg-lighter);
+}
+
+.markdown__preview :not(pre) code {
+  border-radius: 5px;
+  border: 1px solid var(--border-code);
+  background: var(--bg-gray);
+
+  padding: 0 0.2em;
+}
+
+.markdown__preview :is(ol, ul) {
+  margin: 2em 0;
+  margin-left: 3em;
+}
+
+.markdown__preview li input[type="checkbox"] {
+  margin-left: 0.6em;
+}
+
+.markdown__preview pre {
+  padding: 0.5em;
+  margin: 1.5em 0;
+  font-size: 0.8rem;
+  background: var(--bg-lighter);
+  
+  border-radius: 5px;
+  border: 1px solid var(--border-code);
+  
+  white-space: pre-wrap;
+}
+
+.markdown__preview code {
+  font-family: monospace;
+}
+
+.markdown__preview table {
+  margin: 1em 0;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.markdown__preview tr {
+  font-weight: 600;
+}
+
+.markdown__preview :is(th, td) {
+  font-size: 0.9rem;
+  padding: 0.4em 0.8em;
+  border: 1px solid var(--border-code);
+}
+
+.markdown__preview td {
+  font-weight: 500;
+}
+
+.markdown__preview tr:nth-child(even) {
+  background: #171616;
+}
+
+.markdown__preview :is(h1, h2, h3, h4, h5, h6) {
+  margin-bottom: 1em;
+}
+
+/* Header font sizes */
+.markdown__preview h1 { font-size: 1.5rem }
+.markdown__preview h2 { font-size: 1.4rem }
+.markdown__preview h3 { font-size: 1.3rem }
+.markdown__preview h4 { font-size: 1.2rem }
+.markdown__preview h5 { font-size: 1.1rem }
+.markdown__preview h6 { font-size: 1rem }
