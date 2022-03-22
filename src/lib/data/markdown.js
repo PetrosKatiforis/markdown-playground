@@ -1,5 +1,5 @@
-export default `
-# Markdown Playground
+export default 
+`# Markdown Playground
 
 Lorem markdownum obliquo bella. Respicit [spectat](http://iraefugit.net/causa) ausus puniceo! Quod hos quod pulveris flumina caelo. Humo annum, est vox **fronti trepidare** protinus ibi genetrix rotae tot fidissime pactaque erat ferarum rostro. Mea tamen concutit digitis antiquam inplent Stygia.
 

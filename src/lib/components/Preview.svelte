@@ -11,7 +11,7 @@
   marked.setOptions({
     highlight: function(code, lang) {
       try {
-        return hljs.highlight(lang || "js", code).value
+        return hljs.highlight(code, { language: lang || "js" }).value
 
       } catch(err) {
         return err.toString()
