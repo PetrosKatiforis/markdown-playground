@@ -8,7 +8,7 @@
   <meta 
     name="description" 
     content="
-      A svelte application for markdown experiements. 
+      A svelte application for markdown experiments. 
       Write markdown and view the compiled version with the help of the real time previewer
     "
   >
