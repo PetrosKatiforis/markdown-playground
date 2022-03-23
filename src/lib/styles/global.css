@@ -9,6 +9,10 @@
   word-break: break-word;
 }
 
+*::-webkit-scrollbar {
+  display: none;  
+}
+
 :root {
   --bg-body: #111;
   --bg-lighter: #0f0e0e;
